@@ -37,7 +37,7 @@ article {
 
 article h1 {
     background-color: #FBDCD9;
-    color: #000000;
+    color: #333333;
     text-shadow: 0px 5px 10px #CE8088;
 }
 
@@ -156,7 +156,8 @@ header img {
 }
 
 .sub-h1 {
-    background: linear-gradient(to left, #ffffff, #db8f95);
+    background: linear-gradient(to left, #ffffff, #FBDCD9);
+    color: #333333;
     padding-top: 5px;
     padding-left: 10px;
 }
@@ -198,11 +199,13 @@ nav ul a{
 
 nav ul a:link {color: #CE8088;}
 
-nav ul a:visited {color: #ffffff;}
+nav ul a:visited {color: #333333;}
 
 nav ul a:hover {color: #990066;}
 
 nav ul a:active {color: #ffffff;}
+
+
 
 .chi-san {
     float: left;
@@ -212,6 +215,26 @@ nav ul a:active {color: #ffffff;}
 float: right;
 }
 
+table {
+    border: 1px solid #333333;
+    font-size: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #FBDCD9;
+    border: 1px solid #333333;
+    padding: 10px;
+    width: 20%;
+}
+
+td {
+    border: 1px solid #333333;
+    padding: 10px;
+}
 
 
 
